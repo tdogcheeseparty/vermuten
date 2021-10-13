@@ -5,8 +5,11 @@ from flask import request
 from flask import render_template
 from application.JsonLoader import ConfigLoader
 
+logging_format = '%(asctime)s - %(levelname)s - %(filename)s - %(funcName)s - %(message)s'
+logging.basicConfig(level=logging.INFO, format=logging_format)
+
 app = Flask(__name__)
-config_file = "config.json"
+config_file = "config.json"  # TODO: Expose this as a runtime parameter.
 riddle_manager = ConfigLoader(config_file).get_riddle_manager()
 
 

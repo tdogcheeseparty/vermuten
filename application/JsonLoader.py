@@ -35,6 +35,7 @@ class ConfigLoader(object):
                     completion_message
                 )
                 self.riddle_collection[len(self.riddle_collection)] = riddle_object
+            logging.info(f"Successfully loaded {self.path_to_json_config}.")
             logging.info(f"Riddle count: {len(self.riddle_collection)}")
             logging.info(f"Incorrect response count: {len(incorrect_responses)}")
             logging.info(f"Correct response count: {len(correct_responses)}")

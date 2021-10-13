@@ -30,6 +30,9 @@ class Riddle(object):
     def get_attempts(self):
         return self.attempts
 
+    def reset_attempts(self):
+        self.attempts = 0
+
     def get_completion_message(self):
         return self.completion_message
 
@@ -61,6 +64,7 @@ class RiddleManager(object):
         try:
             return self.riddles[self.current_riddle_index]
         except KeyError:
+            logging.info("There are no more riddles. Returning None to caller.")
             return None
 
     def get_current_riddle_number(self):
@@ -76,6 +80,7 @@ class RiddleManager(object):
         return attempts
 
     def reset_progress(self):
+        logging.warning("Resetting progress and attempt counts.")
         self.current_riddle_index = 0
-
-
+        for riddle_id, riddle in self.riddles.items():
+            riddle.reset_attempts()
