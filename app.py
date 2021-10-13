@@ -1,4 +1,4 @@
-import argparse
+import os
 import logging
 from flask import Flask
 from flask import request
@@ -9,7 +9,7 @@ logging_format = '%(asctime)s - %(levelname)s - %(filename)s - %(funcName)s - %(
 logging.basicConfig(level=logging.INFO, format=logging_format)
 
 app = Flask(__name__)
-config_file = "config.json"  # TODO: Expose this as a runtime parameter.
+config_file = os.getenv("VERMUTEN_CONFIG")
 riddle_manager = ConfigLoader(config_file).get_riddle_manager()
 
 
