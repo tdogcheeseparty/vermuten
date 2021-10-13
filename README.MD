@@ -9,6 +9,9 @@ It is important to note that there's is a single instance of this server so, if 
 * Gunicorn (server)
 * Heroku (PaaS)
 
+# Configuration
+`VERMUTEN_CONFIG` must be set and point to a JSON config file within the root application directory. See `demo.json` for an example of the config format.
+
 # License
 Copyright 2021 seaburr
 
