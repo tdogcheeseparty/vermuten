@@ -43,6 +43,7 @@ def riddle():
                                    response=current_riddle.get_random_incorrect_response())
     else:
         return render_template('complete.html.j2',
+                               completion_message=riddle_manager.get_completion_message(),
                                attempts=riddle_manager.get_total_attempt_count())
 
 
