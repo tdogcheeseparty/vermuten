@@ -7,8 +7,16 @@ class RiddleException(Exception):
 
 
 class Riddle(object):
-
-    def __init__(self, riddle, answer, hint, image_name, correct_responses, incorrect_responses, completion_messsage):
+    def __init__(
+        self,
+        riddle,
+        answer,
+        hint,
+        image_name,
+        correct_responses,
+        incorrect_responses,
+        completion_message,
+    ):
         self.riddle = riddle
         self.image_name = image_name
         self.answer = answer
@@ -16,7 +24,7 @@ class Riddle(object):
         self.attempts = 0
         self.correct_responses = correct_responses
         self.incorrect_responses = incorrect_responses
-        self.completion_message = completion_messsage
+        self.completion_message = completion_message
 
     def get_riddle(self):
         return self.riddle
@@ -55,7 +63,6 @@ class Riddle(object):
 
 
 class RiddleManager(object):
-
     def __init__(self, riddles):
         self.riddles = riddles
         self.current_riddle_index = 0

@@ -8,7 +8,6 @@ class ConfigLoadException(Exception):
 
 
 class ConfigLoader(object):
-
     def __init__(self, path_to_json_config):
         self.path_to_json_config = path_to_json_config
         self.riddle_collection = dict()
@@ -32,7 +31,7 @@ class ConfigLoader(object):
                     riddle["image_name"],
                     correct_responses,
                     incorrect_responses,
-                    completion_message
+                    completion_message,
                 )
                 self.riddle_collection[len(self.riddle_collection)] = riddle_object
             logging.info(f"Successfully loaded {self.path_to_json_config}.")
