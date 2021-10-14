@@ -2,6 +2,7 @@ import unittest
 from application.Riddle import Riddle, RiddleManager
 from application.JsonLoader import ConfigLoader
 
+
 class RiddleTests(unittest.TestCase):
 
     RIDDLE = "riddle"
@@ -15,8 +16,15 @@ class RiddleTests(unittest.TestCase):
     COMPLETION_MESSAGE = "done"
 
     def setUp(self):
-        self.riddle = Riddle(self.RIDDLE, self.ANSWER, self.HINT, self.IMAGE_NAME, self.CORRECT_RESPONSES,
-                        self.INCORRECT_RESPONSES, self.COMPLETION_MESSAGE)
+        self.riddle = Riddle(
+            self.RIDDLE,
+            self.ANSWER,
+            self.HINT,
+            self.IMAGE_NAME,
+            self.CORRECT_RESPONSES,
+            self.INCORRECT_RESPONSES,
+            self.COMPLETION_MESSAGE,
+        )
 
     def test_get_riddle(self):
         self.assertEqual(self.riddle.get_riddle(), self.RIDDLE)
@@ -44,7 +52,9 @@ class RiddleTests(unittest.TestCase):
         self.assertIn(self.riddle.get_random_correct_response(), self.CORRECT_RESPONSES)
 
     def test_get_incorrect_response(self):
-        self.assertIn(self.riddle.get_random_incorrect_response(), self.INCORRECT_RESPONSES)
+        self.assertIn(
+            self.riddle.get_random_incorrect_response(), self.INCORRECT_RESPONSES
+        )
 
     def test_get_completion_message(self):
         self.assertEqual(self.riddle.get_completion_message(), self.COMPLETION_MESSAGE)
@@ -63,8 +73,15 @@ class RiddleManagerTests(unittest.TestCase):
     COMPLETION_MESSAGE = "done"
 
     def setUp(self):
-        self.riddle = Riddle(self.RIDDLE, self.ANSWER, self.HINT, self.IMAGE_NAME, self.CORRECT_RESPONSES,
-                             self.INCORRECT_RESPONSES, self.COMPLETION_MESSAGE)
+        self.riddle = Riddle(
+            self.RIDDLE,
+            self.ANSWER,
+            self.HINT,
+            self.IMAGE_NAME,
+            self.CORRECT_RESPONSES,
+            self.INCORRECT_RESPONSES,
+            self.COMPLETION_MESSAGE,
+        )
         riddle_collection = {0: self.riddle}
         self.riddle_manager = RiddleManager(riddle_collection)
 
@@ -89,7 +106,9 @@ class RiddleManagerTests(unittest.TestCase):
         self.assertEqual(self.riddle_manager.get_total_attempt_count(), 2)
 
     def test_get_completion_message(self):
-        self.assertEqual(self.riddle_manager.get_completion_message(), self.COMPLETION_MESSAGE)
+        self.assertEqual(
+            self.riddle_manager.get_completion_message(), self.COMPLETION_MESSAGE
+        )
 
 
 class JsonLoaderTests(unittest.TestCase):
