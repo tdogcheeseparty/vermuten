@@ -2,7 +2,7 @@
   "riddles": [
     {
     "question": "What has to be broken before you can use it?",
-    "answer": ["egg", "eggs"],
+    "answer": ["egg", "eggs", "horse"],
     "hint": "breakfast",
     "image_name": "chicken.png"
     },
