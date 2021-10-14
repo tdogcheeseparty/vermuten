@@ -113,6 +113,7 @@ class RiddleManagerTests(unittest.TestCase):
 
 class JsonLoaderTests(unittest.TestCase):
     CONFIG_FILE_NAME = "./tests/test_config.json"
+    CONFIG_NAME = "test_config"
 
     def setUp(self):
         self.json_config_loader = ConfigLoader(self.CONFIG_FILE_NAME)
@@ -123,3 +124,6 @@ class JsonLoaderTests(unittest.TestCase):
     def test_get_riddle_manager(self):
         riddle_manager = self.json_config_loader.get_riddle_manager()
         self.assertEqual(type(riddle_manager), RiddleManager)
+
+    def test_get_config_file_name(self):
+        self.assertEqual(self.json_config_loader.get_config_file_name(), self.CONFIG_NAME)

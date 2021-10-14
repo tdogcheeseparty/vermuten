@@ -1,16 +1,31 @@
 # vermuten
 German for "guess", vermuten is a very basic riddle/puzzle application. Upon server start, a config file that contains riddle information is loaded into memory and defines the riddles that a group of classmates must answer.
 
-It is important to note that there's is a single instance of this server so, if desired, multiple web browsers can be used to interact with the same game instance.
+It is important to note that there is a single instance of this server so, if desired, multiple web browsers can be used to interact with the same game instance.
 
 # Technologies
-* Python (lang)
+* Python (language)
 * Flask (web framework)
-* Gunicorn (server)
+* Gunicorn (web server)
 * Heroku (PaaS)
 
 # Configuration
 `VERMUTEN_CONFIG` must be set and point to a JSON config file within the root application directory. See `demo.json` for an example of the config format.
+
+# Endpoints
+## Game
+### /
+Returns the puzzle.
+
+## Progress Report
+### /admin/progress
+Returns a status page.
+
+## Progress Reset
+### /admin/<config_file_name>/reset
+Resets game progress and immediately redirects the user to `/`
+
+**NOTE:** If the config file is named `demo.json` then the url would be `/admin/demo/reset`.
 
 # License
 Copyright 2021 seaburr

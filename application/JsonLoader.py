@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 from application.Riddle import Riddle, RiddleManager
 
 
@@ -49,3 +50,7 @@ class ConfigLoader(object):
     def get_riddle_manager(self):
         riddle_manager = RiddleManager(self.get_riddles())
         return riddle_manager
+
+    def get_config_file_name(self):
+        filename = os.path.basename(self.path_to_json_config)
+        return filename.split(".")[0]

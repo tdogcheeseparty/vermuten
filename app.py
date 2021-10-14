@@ -2,6 +2,8 @@ import os
 import logging
 from flask import Flask
 from flask import request
+from flask import redirect
+from flask import url_for
 from flask import render_template
 from application.JsonLoader import ConfigLoader
 
@@ -12,7 +14,9 @@ logging.basicConfig(level=logging.INFO, format=logging_format)
 
 app = Flask(__name__)
 config_file = os.getenv("VERMUTEN_CONFIG")
-riddle_manager = ConfigLoader(config_file).get_riddle_manager()
+config_loader = ConfigLoader(config_file)
+riddle_manager = config_loader.get_riddle_manager()
+reset_url_name = config_loader.get_config_file_name()
 
 
 @app.route("/")
@@ -57,11 +61,19 @@ def riddle():
         )
 
 
-# TODO: Remove this. It's only here for demo purposes.
-@app.route("/reset")
+@app.route(f"/admin/{reset_url_name}/reset")
 def reset():
     riddle_manager.reset_progress()
-    return "Progress reset."
+    return redirect(url_for("riddle"))
+
+
+@app.route(f"/admin/progress")
+def progress():
+    return render_template(
+        "progress.html.j2",
+        current_riddle=riddle_manager.get_current_riddle().get_riddle(),
+        attempts=riddle_manager.get_total_attempt_count(),
+    )
 
 
 if __name__ == "__main__":
