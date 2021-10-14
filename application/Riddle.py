@@ -89,6 +89,9 @@ class RiddleManager(object):
     def get_completion_message(self):
         return self.riddles[0].get_completion_message()
 
+    def get_riddle_count(self):
+        return len(self.riddles)
+
     def reset_progress(self):
         logging.warning("Resetting progress and attempt counts.")
         self.current_riddle_index = 0

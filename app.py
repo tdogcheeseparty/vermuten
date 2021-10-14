@@ -67,10 +67,12 @@ def reset():
     return redirect(url_for("riddle"))
 
 
-@app.route(f"/admin/progress")
+@app.route("/admin/progress")
 def progress():
     return render_template(
         "progress.html.j2",
+        current_riddle_number=riddle_manager.get_current_riddle_number(),
+        riddle_count=riddle_manager.get_riddle_count(),
         current_riddle=riddle_manager.get_current_riddle().get_riddle(),
         attempts=riddle_manager.get_total_attempt_count(),
     )

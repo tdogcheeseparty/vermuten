@@ -82,8 +82,8 @@ class RiddleManagerTests(unittest.TestCase):
             self.INCORRECT_RESPONSES,
             self.COMPLETION_MESSAGE,
         )
-        riddle_collection = {0: self.riddle}
-        self.riddle_manager = RiddleManager(riddle_collection)
+        self.riddle_collection = {0: self.riddle}
+        self.riddle_manager = RiddleManager(self.riddle_collection)
 
     def test_get_current_riddle(self):
         self.assertEqual(self.riddle_manager.get_current_riddle(), self.riddle)
@@ -110,6 +110,9 @@ class RiddleManagerTests(unittest.TestCase):
             self.riddle_manager.get_completion_message(), self.COMPLETION_MESSAGE
         )
 
+    def test_get_riddle_count(self):
+        self.assertEqual(self.riddle_manager.get_riddle_count(), 1)
+
 
 class JsonLoaderTests(unittest.TestCase):
     CONFIG_FILE_NAME = "./tests/test_config.json"
@@ -127,3 +130,9 @@ class JsonLoaderTests(unittest.TestCase):
 
     def test_get_config_file_name(self):
         self.assertEqual(self.json_config_loader.get_config_file_name(), self.CONFIG_NAME)
+
+    def test_get_riddles_type(self):
+        self.assertEqual(type(self.json_config_loader.get_riddles()), type(dict()))
+
+    def test_get_riddles_count(self):
+        self.assertEqual(len(self.json_config_loader.get_riddles()), 3)

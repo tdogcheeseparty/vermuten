@@ -3,7 +3,7 @@ override VERMUTEN_CONFIG = demo.json
 endif
 
 test:
-	python -m unittest discover tests "*_tests.py"
+	python3 -m unittest discover tests "*_tests.py"
 
 run: test
 	VERMUTEN_CONFIG=$(VERMUTEN_CONFIG) && gunicorn app:app
