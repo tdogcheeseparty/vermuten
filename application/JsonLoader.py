@@ -18,6 +18,7 @@ class ConfigLoader(object):
             logging.info(f"Loading {self.path_to_json_config}.")
             config_file = open(self.path_to_json_config, "r")
             json_config = json.loads(config_file.read())
+            config_file.close()
             logging.debug(f"Config:\n{json_config}")
             incorrect_responses = json_config["incorrect_responses"]
             correct_responses = json_config["correct_responses"]
