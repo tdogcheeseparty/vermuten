@@ -54,6 +54,6 @@
     "Correct!",
     "Nicely done!"
   ],
-  "completion_message": "Congratulations...You have Escaped<br><br>The Taubinator..."
+  "completion_message": "Congratulations...You have Escaped<br><br>The Taubinator...",
    "completion_image_name": "final.jpeg"
 }
