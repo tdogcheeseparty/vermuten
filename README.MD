@@ -22,10 +22,8 @@ Returns the puzzle.
 Returns a status page.
 
 ## Progress Reset
-### /admin/<config_file_name>/reset
+### /admin/reset
 Resets game progress and immediately redirects the user to `/`
-
-**NOTE:** If the config file is named `demo.json` then the url would be `/admin/demo/reset`.
 
 # License
 Copyright 2021 seaburr

@@ -14,6 +14,7 @@ class RiddleTests(unittest.TestCase):
     CORRECT_RESPONSES = ["yes"]
     INCORRECT_RESPONSES = ["no"]
     COMPLETION_MESSAGE = "done"
+    COMPLETION_IMAGE_NAME = "all_done.png"
 
     def setUp(self):
         self.riddle = Riddle(
@@ -24,6 +25,7 @@ class RiddleTests(unittest.TestCase):
             self.CORRECT_RESPONSES,
             self.INCORRECT_RESPONSES,
             self.COMPLETION_MESSAGE,
+            self.COMPLETION_IMAGE_NAME
         )
 
     def test_get_riddle(self):
@@ -71,6 +73,7 @@ class RiddleManagerTests(unittest.TestCase):
     CORRECT_RESPONSES = ["yes"]
     INCORRECT_RESPONSES = ["no"]
     COMPLETION_MESSAGE = "done"
+    COMPLETION_IMAGE_NAME = "all_done.png"
 
     def setUp(self):
         self.riddle = Riddle(
@@ -81,6 +84,7 @@ class RiddleManagerTests(unittest.TestCase):
             self.CORRECT_RESPONSES,
             self.INCORRECT_RESPONSES,
             self.COMPLETION_MESSAGE,
+            self.COMPLETION_IMAGE_NAME
         )
         self.riddle_collection = {0: self.riddle}
         self.riddle_manager = RiddleManager(self.riddle_collection)
@@ -110,6 +114,11 @@ class RiddleManagerTests(unittest.TestCase):
             self.riddle_manager.get_completion_message(), self.COMPLETION_MESSAGE
         )
 
+    def test_get_completion_image_name(self):
+        self.assertEqual(
+            self.riddle_manager.get_completion_image_name(), self.COMPLETION_IMAGE_NAME
+        )
+
     def test_get_riddle_count(self):
         self.assertEqual(self.riddle_manager.get_riddle_count(), 1)
 
@@ -136,3 +145,4 @@ class JsonLoaderTests(unittest.TestCase):
 
     def test_get_riddles_count(self):
         self.assertEqual(len(self.json_config_loader.get_riddles()), 3)
+

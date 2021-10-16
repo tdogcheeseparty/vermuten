@@ -24,6 +24,7 @@ class ConfigLoader(object):
             incorrect_responses = json_config["incorrect_responses"]
             correct_responses = json_config["correct_responses"]
             completion_message = json_config["completion_message"]
+            completion_image_name = json_config["completion_image_name"]
             for riddle in json_config["riddles"]:
                 logging.debug(f"Creating riddle object for {riddle}.")
                 riddle_object = Riddle(
@@ -34,6 +35,7 @@ class ConfigLoader(object):
                     correct_responses,
                     incorrect_responses,
                     completion_message,
+                    completion_image_name
                 )
                 self.riddle_collection[len(self.riddle_collection)] = riddle_object
             logging.info(f"Successfully loaded {self.path_to_json_config}.")
