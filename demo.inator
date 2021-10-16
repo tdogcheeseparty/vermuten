@@ -14,7 +14,7 @@
     },
     {
       "question": "Math has been like movie you watch again and again.<br><br>Spell out the constant found at Entry 2 to get closer to your escape!",
-      "answer": ["five",],
+      "answer": ["five"],
       "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
     },
