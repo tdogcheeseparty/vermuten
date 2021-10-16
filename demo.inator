@@ -7,13 +7,13 @@
     "image_name": "termtaube.jpeg"
     },
     {
-      "question": "Four the type of animals in the room.  The 1st letter for each animal rearranged name a small decorative object.",
+      "question": "Four the type of animals in the room.<br><br>The 1st letter for each animal rearranged name a small decorative object.",
       "answer": ["bead"],
       "hint": "Dinos count as just one",
       "image_name": "Animals.jpeg"
     },
     {
-      "question": "Math has been like movie you watch again and again.  Spell out the constant found at Entry 2 to get closer to your escape!",
+      "question": "Math has been like movie you watch again and again.<br><br>Spell out the constant found at Entry 2 to get closer to your escape!",
       "answer": ["five", "5"],
       "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
@@ -25,13 +25,13 @@
       "image_name": "Robo.png"
     },
      {
-      "question": "This symbol is IRONic.  Coin the clue found below.",
+      "question": "This symbol is IRONic.<br><br>Coin the clue found below.",
       "answer": ["star wars", "starwars"],
       "hint": "Help you find it, I will",
       "image_name": "halfface.jpeg"
     },
       {
-      "question": "August 4th, 44 was born.  A year later the Taubinator was added to the calculation.  This led to an unbeatable combination.",
+      "question": "August 4th, 44 was born.<br><br>A year later the Taubinator was added to the calculation.<br><br>This led to an unbeatable combination.",
       "answer": ["north"],
       "hint": "You might want to use a compass.",
       "image_name": "Termup.jpeg"
