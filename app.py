@@ -16,7 +16,6 @@ app = Flask(__name__)
 config_file = os.getenv("VERMUTEN_CONFIG")
 config_loader = ConfigLoader(config_file)
 riddle_manager = config_loader.get_riddle_manager()
-reset_url_name = config_loader.get_config_file_name()
 
 
 @app.route("/")
@@ -37,7 +36,14 @@ def riddle():
             riddle_manager.next_riddle()
             return redirect(url_for("riddle"))
         else:
-            return redirect(url_for("riddle"))
+            return render_template(
+                "index.html.j2",
+                riddle_id=riddle_id,
+                riddle=current_riddle.get_riddle(),
+                image_name=current_riddle.get_image_name(),
+                hint=current_riddle.get_hint(),
+                response=current_riddle.get_random_incorrect_response(),
+            )
     else:
         return render_template(
             "complete.html.j2",
@@ -47,10 +53,16 @@ def riddle():
         )
 
 
-@app.route("/admin/reset")
+@app.route("/restart")
 def reset():
     riddle_manager.reset_progress()
     return redirect(url_for("riddle"))
+
+
+@app.route("/admin/reset")
+def reset_admin_page():
+    riddle_manager.reset_progress()
+    return redirect((url_for("progress")))
 
 
 @app.route("/admin/progress")
@@ -65,4 +77,6 @@ def progress():
 
 
 if __name__ == "__main__":
+    logging.info("Starting vermuten...")
     app.run()
+
