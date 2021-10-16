@@ -29,5 +29,6 @@
     "Correct!",
     "Nicely done!"
   ],
-  "completion_message": "You have completed the puzzle!"
+  "completion_message": "You have completed the puzzle!",
+  "completion_image_name": "all_done.png"
 }

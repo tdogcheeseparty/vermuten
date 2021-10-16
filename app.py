@@ -35,33 +35,19 @@ def riddle():
     elif guess is not None and current_riddle is not None:
         if current_riddle.test_answer(guess):
             riddle_manager.next_riddle()
-            return render_template(
-                "index.html.j2",
-                riddle_id=riddle_id,
-                riddle=current_riddle.get_riddle(),
-                image_name=current_riddle.get_image_name(),
-                hint=current_riddle.get_hint(),
-                response=current_riddle.get_random_correct_response(),
-                advance=True,
-            )
+            return redirect(url_for("riddle"))
         else:
-            return render_template(
-                "index.html.j2",
-                riddle_id=riddle_id,
-                riddle=current_riddle.get_riddle(),
-                image_name=current_riddle.get_image_name(),
-                hint=current_riddle.get_hint(),
-                response=current_riddle.get_random_incorrect_response(),
-            )
+            return redirect(url_for("riddle"))
     else:
         return render_template(
             "complete.html.j2",
             completion_message=riddle_manager.get_completion_message(),
+            image_name=riddle_manager.get_completion_image_name(),
             attempts=riddle_manager.get_total_attempt_count(),
         )
 
 
-@app.route(f"/admin/{reset_url_name}/reset")
+@app.route("/admin/reset")
 def reset():
     riddle_manager.reset_progress()
     return redirect(url_for("riddle"))

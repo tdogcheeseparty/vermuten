@@ -16,6 +16,7 @@ class Riddle(object):
         correct_responses,
         incorrect_responses,
         completion_message,
+        completion_image_name
     ):
         self.riddle = riddle
         self.image_name = image_name
@@ -25,6 +26,7 @@ class Riddle(object):
         self.correct_responses = correct_responses
         self.incorrect_responses = incorrect_responses
         self.completion_message = completion_message
+        self.completion_image_name = completion_image_name
 
     def get_riddle(self):
         return self.riddle
@@ -43,6 +45,9 @@ class Riddle(object):
 
     def get_completion_message(self):
         return self.completion_message
+
+    def get_completion_image_name(self):
+        return self.completion_image_name
 
     def test_answer(self, response):
         logging.debug(f"Testing {response} against {self.answer}.")
@@ -88,6 +93,9 @@ class RiddleManager(object):
 
     def get_completion_message(self):
         return self.riddles[0].get_completion_message()
+
+    def get_completion_image_name(self):
+        return self.riddles[0].get_completion_image_name()
 
     def get_riddle_count(self):
         return len(self.riddles)
