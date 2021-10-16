@@ -2,9 +2,9 @@
   "riddles": [
     {
     "question": "What has to be broken before you can use it?",
-    "answer": ["egg", "eggs"],
+    "answer": ["egg", "eggs", "horse"],
     "hint": "breakfast",
-    "image_name": "termtaube.jpeg"
+    "image_name": "chicken.png"
     },
     {
       "question": "I'm tall when I'm young and I'm short when I'm old. What am I?",
