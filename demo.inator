@@ -32,13 +32,13 @@
     },
       {
       "question": "August 4th, 44 was born.  A year later the Taubinator was added to the calculation.  This led to an unbeatable combination.",
-      "answer": ["north", "North",],
+      "answer": ["north", "North"],
       "hint": "You might want to use a compass.",
       "image_name": "Termup.jpeg"
     },
     {
       "question": "Enter the Room Number to complete your escape!",
-      "answer": ["1602", "1602",],
+      "answer": ["1602", "1602"],
       "hint": "You don't need any more hints at this point",
       "image_name": "Room.jpeg"
     },
@@ -54,6 +54,5 @@
     "Correct!",
     "Nicely done!"
   ],
-  "completion_message": "Congratulations...You have Escaped 
-The Taubinator…"
+"completion_message": "Congratulations...You have Escaped The Taubinator…"
 }
