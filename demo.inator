@@ -2,46 +2,46 @@
   "riddles": [
     {
     "question": "Find the distance in blocks from corner A and corner B. Round to the nearest whole block.",
-    "answer": ["56", "56"],
+    "answer": ["56", "fifty six"],
     "hint": "A2+B2=C2",
     "image_name": "termtaube.jpeg"
     },
     {
       "question": "Four the type of animals in the room.  The 1st letter for each animal rearranged name a small decorative object.",
-      "answer": ["bead", "BEAD"],
+      "answer": ["bead"],
       "hint": "Dinos count as just one",
       "image_name": "animals.jpeg"
     },
     {
       "question": "Math has been like movie you watch again and again.  Spell out the constant found at Entry 2 to get closer to your escape!",
-      "answer": ["five", "five"],
+      "answer": ["five", "5"],
       "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
     },
     {
       "question": "The key to this hiding place gives birth to big things.",
-      "answer": ["chromebook", "Chromebook"],
+      "answer": ["chromebook"],
       "hint": "Don't be cracked up when you find it",
       "image_name": "Robo.png"
     },
      {
       "question": "This symbol is IRONic.  Coin the clue found below.",
-      "answer": ["star wars", "Star Wars", "starwars"],
+      "answer": ["star wars", "starwars"],
       "hint": "Help you find it, I will",
       "image_name": "halfface.jpeg"
     },
       {
       "question": "August 4th, 44 was born.  A year later the Taubinator was added to the calculation.  This led to an unbeatable combination.",
-      "answer": ["north", "North"],
+      "answer": ["north"],
       "hint": "You might want to use a compass.",
       "image_name": "Termup.jpeg"
     },
     {
       "question": "Enter the Room Number to complete your escape!",
-      "answer": ["1602", "1602"],
+      "answer": ["1602"],
       "hint": "You don't need any more hints at this point",
       "image_name": "Room.jpeg"
-    },
+    }
   ],
   "incorrect_responses": [
     "That's not it.",
@@ -54,5 +54,5 @@
     "Correct!",
     "Nicely done!"
   ],
-"completion_message": "Congratulations...You have Escaped The Taubinator…"
+  "completion_message": "Congratulations...You have Escaped<br><br>The Taubinator..."
 }
