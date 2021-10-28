@@ -1,8 +1,8 @@
 {
   "riddles": [
     {
-    "question": "Find the distance in blocks from corner A and corner B. Round to the nearest whole block.",
-    "answer": ["56", "fifty six"],
+    "question": "Find the area in block uints for wall A. Round to the nearest whole block.",
+    "answer": ["329"],
     "hint": "A2+B2=C2",
     "image_name": "termtaube.jpeg"
     },
@@ -13,8 +13,8 @@
       "image_name": "Animals.jpeg"
     },
     {
-      "question": "Math has been like movie you watch again and again.<br><br>Spell out the constant found at Entry 2 to get closer to your escape!",
-      "answer": ["five"],
+      "question": "Math has been like movie you watch again and again.<br><br>Name the constant found at Entry 2 to get closer to your escape!",
+      "answer": ["18"],
       "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
     },
