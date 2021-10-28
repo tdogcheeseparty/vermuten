@@ -1,9 +1,9 @@
 {
   "riddles": [
     {
-    "question": "Find the area in block uints for wall A. Round to the nearest whole block.",
+    "question": "Find the area in block units for wall A. Round to the nearest whole block.",
     "answer": ["329"],
-    "hint": "A2+B2=C2",
+    "hint": "counting whole or half blocks is ok",
     "image_name": "termtaube.jpeg"
     },
     {
