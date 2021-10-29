@@ -31,13 +31,13 @@
       "image_name": "halfface.jpeg"
     },
       {
-      "question": "As leader 44, he was born August 4th.<br><br>A 12 months later the Taubinator was too.<br><br>This year leads to a winning combination.",
+      "question": "As leader 44, he was born August 4.<br><br>12 months later the Taubinator was too.<br><br>This year leads to a winning combination.",
       "answer": ["north"],
-      "hint": "You might want to use a compass.",
+      "hint": "You'll make history with this answer!",
       "image_name": "Termup.jpeg"
     },
     {
-      "question": "Entering the Room Number will complete your escape!",
+      "question": "Entering the room number will complete your escape!",
       "answer": ["1602"],
       "hint": "You don't need any more hints at this point",
       "image_name": "Room.jpeg"
