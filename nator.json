@@ -2,7 +2,7 @@
   "riddles": [
     {
     "question": "Find the area in block units for wall A. Round to the nearest whole block.",
-    "answer": ["329"],
+    "answer": ["336"],
     "hint": "Counting half blocks is ok",
     "image_name": "termtaube.jpeg"
     },
