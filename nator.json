@@ -3,17 +3,17 @@
     {
     "question": "Find the area in block units for wall A. Round to the nearest whole block.",
     "answer": ["329"],
-    "hint": "counting whole or half blocks is ok",
+    "hint": "Counting half blocks is ok",
     "image_name": "termtaube.jpeg"
     },
     {
-      "question": "Four the type of animals in the room.<br><br>The 1st letter for each animal rearranged name a small decorative object.",
+      "question": "Four the types of animals on the walls and shelves.<br><br>The 1st letter for each animal rearranged names a small decorative object.",
       "answer": ["bead"],
       "hint": "Dinos count as just one",
       "image_name": "Animals.jpeg"
     },
     {
-      "question": "Math has been like movie you watch again and again.<br><br>Name the constant found at Entry 2 to get closer to your escape!",
+      "question": "Math can supply constant challenges.<br><br>Name the constant found at Entry 2 to get closer to your escape!",
       "answer": ["18"],
       "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
@@ -31,13 +31,13 @@
       "image_name": "halfface.jpeg"
     },
       {
-      "question": "August 4th, 44 was born.<br><br>A year later the Taubinator was added to the calculation.<br><br>This led to an unbeatable combination.",
+      "question": "As leader 44, he was born August 4th.<br><br>A 12 months later the Taubinator was too.<br><br>This year leads to a winning combination.",
       "answer": ["north"],
       "hint": "You might want to use a compass.",
       "image_name": "Termup.jpeg"
     },
     {
-      "question": "Enter the Room Number to complete your escape!",
+      "question": "Entering the Room Number will complete your escape!",
       "answer": ["1602"],
       "hint": "You don't need any more hints at this point",
       "image_name": "Room.jpeg"
