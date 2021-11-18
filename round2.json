@@ -13,7 +13,7 @@
       "image_name": "Animals.jpeg"
     },
     {
-      "question": "Entry 1 introduced you to the name of our unit.",
+      "question": "Entry 1 introduced you to the name of our unit.<br><br>Type the last word.",
       "answer": ["line"],
       "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
