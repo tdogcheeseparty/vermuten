@@ -2,8 +2,8 @@
   "riddles": [
     {
     "question": "Measure in tiles...find the slope from Point A to Point B",
-    "answer": ["20"],
-    "hint": "You will be floored by the answer",
+    "answer": ["one"],
+    "hint": "Spell it out and you will be floored",
     "image_name": "termtaube.jpeg"
     },
     {
@@ -19,7 +19,7 @@
       "image_name": "thumbs.jpeg"
     },
     {
-      "question": "When the RedWar has a new arrangement the top one will lead you to the next clue.",
+      "question": "When the RedWar has a new arrangement,<br><br> the top one will lead you to the next clue.",
       "answer": ["dare"],
       "hint": "rearrange",
       "image_name": "Robo.png"
@@ -31,7 +31,7 @@
       "image_name": "halfface.jpeg"
     },
       {
-      "question": "Rooster starts it.<br><br>Use the first letter of all 14",
+      "question": "Rooster starts it.<br><br>ve a la derecha.<br><br>aller à droite<br><br>Use the first letter of all 14",
       "answer": ["caeemrcadcotvd"],
       "hint": "It is nonsense in order",
       "image_name": "Termup.jpeg"
@@ -39,13 +39,16 @@
     {
       "question": "These vessels of war will lead to freedom.",
       "answer": ["effort"],
-      "hint": "The clue is SUBmarine.",
+      "hint": "Once you find it...the clue is SUBmarine.",
       "image_name": "Room.jpeg"
     }
   ],
   "incorrect_responses": [
     "That's not it.",
     "Guess again.",
+    "Near Miss!",
+    "That's all you've got?",
+    "Dang! Nope!",
     "Try again.",
     "Dig deeper.",
     "You'll be back!"
