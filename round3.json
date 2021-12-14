@@ -1,0 +1,62 @@
+{
+  "riddles": [
+    {
+    "question": "The following function represents<br><br>the number “legs” used by students in the room. f(x) = 4(x)",
+    "answer": ["192"],
+    "hint": "Hint: to sit and write students",
+    "image_name": "termtaube.jpeg"
+    },
+    {
+      "question": "Dog Snake's best friend!",
+      "answer": ["elephant"],
+      "hint": "Hint: found together",
+      "image_name": "Animals.jpeg"
+    },
+    {
+      "question": "With the half of all entries we learned<br><br>to use these to find something important",
+      "answer": ["ordered pairs"],
+      "hint": "Hint: organized fruits",
+      "image_name": "thumbs.jpeg"
+    },
+    {
+      "question": "Screenagers will find this between the old and the new",
+      "answer": ["gandi"],
+      "hint": "Hint: new this year to Renfroe",
+      "image_name": "Robo.png"
+    },
+     {
+      "question": "Terminator the OG arrived in 1984,<br><br> but the near future setting was the real combination.",
+      "answer": ["titan"],
+      "hint": "Hint: Look in #30",
+      "image_name": "halfface.jpeg"
+    },
+      {
+      "question": "Between the 3rd and 4th in the series.",
+      "answer": ["energizer"],
+      "hint": "Hint: read icebound and battle",
+      "image_name": "Termup.jpeg"
+    },
+    {
+      "question": "To the left of #12 in 6th",
+      "answer": ["trinity"],
+      "hint": "Hint: chart the location",
+      "image_name": "Room.jpeg"
+    }
+  ],
+  "incorrect_responses": [
+    "That's not it.",
+    "Guess again.",
+    "Near Miss!",
+    "That's all you've got?",
+    "Dang! Nope!",
+    "Try again.",
+    "Dig deeper.",
+    "You'll be back!"
+  ],
+  "correct_responses": [
+    "Correct!",
+    "Nicely done!"
+  ],
+  "completion_message": "Congratulations...You have Escaped<br><br>The Taubinator...",
+   "completion_image_name": "final.jpeg"
+}
