@@ -4,43 +4,43 @@
     "question": "The following function represents<br><br>the number “legs” used by students in the room.<br><br>f(x) = 4(x)",
     "answer": ["192"],
     "hint": "to sit and write students",
-    "image_name": "termtaube.jpeg"
+    "image_name": "1problems.jpeg"
     },
     {
       "question": "Dog Snake's best friend!",
       "answer": ["elephant"],
       "hint": "found together",
-      "image_name": "Animals.jpeg"
+      "image_name": "2grinch.jpeg"
     },
     {
       "question": "With the half of all entries we learned<br><br>to use these to find something important",
       "answer": ["ordered pairs"],
       "hint": "organized fruits",
-      "image_name": "thumbs.jpeg"
+      "image_name": "3present.png"
     },
     {
       "question": "Screenagers will find this between the old and the new",
       "answer": ["gandhi"],
       "hint": "new this year to Renfroe",
-      "image_name": "Robo.png"
+      "image_name": "4penguin.png"
     },
      {
       "question": "Terminator the OG arrived in 1984,<br><br> but the near future setting was the real combination.",
       "answer": ["titan"],
       "hint": "Search the slots",
-      "image_name": "halfface.jpeg"
+      "image_name": "5gift.jpeg"
     },
       {
       "question": "Between the 3rd and 4th in the series.",
       "answer": ["energizer"],
       "hint": "read icebound and battle",
-      "image_name": "Termup.jpeg"
+      "image_name": "6corn.jpeg"
     },
     {
       "question": "To the left of #12 in 6th",
       "answer": ["trinity"],
       "hint": "chart the location",
-      "image_name": "Room.jpeg"
+      "image_name": "7owl.jpeg"
     }
   ],
   "incorrect_responses": [
