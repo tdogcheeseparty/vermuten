@@ -1,7 +1,7 @@
 {
   "riddles": [
     {
-    "start": "Enter the game code to begin",
+    "question": "Enter the game code to begin",
     "answer": ["dct"],
     "hint": "inititals",
     "image_name": "1problems.png"
