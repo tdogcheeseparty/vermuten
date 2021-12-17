@@ -1,5 +1,11 @@
 {
   "riddles": [
+     {
+    "start": "Enter the game code to begin",
+    "answer": ["dct"],
+    "hint": "inititals",
+    "image_name": "1problems.png"
+    },
     {
     "question": "The following function represents<br><br>the number “legs” used by students in the room.<br><br>f(x) = 4(x)",
     "answer": ["192"],
