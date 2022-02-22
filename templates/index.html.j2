@@ -10,10 +10,15 @@
 function refresh_riddle() {
     $.getJSON("/data",
             function (data) {
-                $("#riddle_id").text(data["riddle_id"]);
-                $("#riddle").text(data["riddle"]);
-                $("#hint").text(data["hint"]);
-                $("#riddle_img").attr("src", data["image_name"]);
+                if (data.hasOwnProperty("game_over")) {
+                    location.reload();
+                }
+                else {
+                    $("#riddle_id").text(data["riddle_id"]);
+                    $("#riddle").text(data["riddle"]);
+                    $("#hint").text(data["hint"]);
+                    $("#riddle_img").attr("src", data["image_name"]);
+                }
             }
     );
 }
