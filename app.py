@@ -5,6 +5,7 @@ from flask import request
 from flask import redirect
 from flask import url_for
 from flask import render_template
+from flask import jsonify
 from application.JsonLoader import ConfigLoader
 
 logging_format = (
@@ -51,6 +52,19 @@ def riddle():
             image_name=riddle_manager.get_completion_image_name(),
             attempts=riddle_manager.get_total_attempt_count(),
         )
+
+
+@app.route("/data")
+def api_data():
+    current_riddle = riddle_manager.get_current_riddle()
+    riddle = current_riddle.get_riddle()
+    riddle_id = riddle_manager.get_current_riddle_number()
+    image_name = current_riddle.get_image_name()
+    hint = current_riddle.get_hint()
+    return jsonify(riddle_id=f'Riddle #{riddle_id}',
+                   riddle=riddle,
+                   image_name=f'./static/{image_name}',
+                   hint=f'Hint: {hint}')
 
 
 @app.route("/restart")
