@@ -74,7 +74,9 @@ def api_data():
 
 @app.route("/restart")
 def reset():
-    riddle_manager.reset_progress()
+    current_riddle = riddle_manager.get_current_riddle()
+    if current_riddle is None:
+        riddle_manager.reset_progress()
     return redirect(url_for("riddle"))
 
 
