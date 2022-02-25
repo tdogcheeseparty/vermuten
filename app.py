@@ -5,6 +5,7 @@ from flask import request
 from flask import redirect
 from flask import url_for
 from flask import render_template
+from flask import jsonify
 from application.JsonLoader import ConfigLoader
 
 logging_format = (
@@ -45,6 +46,7 @@ def riddle():
                 response=current_riddle.get_random_incorrect_response(),
             )
     else:
+        logging.info(riddle_manager.get_current_riddle())
         return render_template(
             "complete.html.j2",
             completion_message=riddle_manager.get_completion_message(),
@@ -53,9 +55,28 @@ def riddle():
         )
 
 
+@app.route("/data")
+def api_data():
+    current_riddle = riddle_manager.get_current_riddle()
+    if current_riddle is None:
+        game_over = True
+        return jsonify(game_over=game_over)
+    else:
+        riddle = current_riddle.get_riddle()
+        image_name = current_riddle.get_image_name()
+        riddle_id = riddle_manager.get_current_riddle_number()
+        hint = current_riddle.get_hint()
+        return jsonify(riddle_id=f'Riddle #{riddle_id}',
+                       riddle=riddle,
+                       image_name=f'./static/{image_name}',
+                       hint=f'Hint: {hint}')
+
+
 @app.route("/restart")
 def reset():
-    riddle_manager.reset_progress()
+    current_riddle = riddle_manager.get_current_riddle()
+    if current_riddle is None:
+        riddle_manager.reset_progress()
     return redirect(url_for("riddle"))
 
 
