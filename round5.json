@@ -7,15 +7,15 @@
     "image_name": "start.jpeg"
     },
     {
-    "question": "The perimeter of the classroom using the number of whole blocks<br><br>written in scientific notation.)",
+    "question": "The perimeter of the classroom using the number of whole blocks written in scientific notation.)",
     "answer": ["8.2"],
     "hint": "type the coefficient only",
     "image_name": "1problems.png"
     },
     {
-      "question": "2 down 9 across.<br><br>This book contains your next sneaky step.",
+      "question": "2 down 9 across.  This book contains your next sneaky step.",
       "answer": ["paw"],
-      "hint": "behind it",
+      "hint": "shelf",
       "image_name": "2grinch.jpeg"
     },
     {
@@ -31,7 +31,7 @@
       "image_name": "4penguin.png"
     },
      {
-      "question": "From ASPIRE to OPTIMISM,<br><br>count them up to find the combination<br><br>to advance your escape.",
+      "question": "From ASPIRE to OPTIMISM, count them up to find the combination to advance your escape.",
       "answer": ["mancala"],
       "hint": "these words really count",
       "image_name": "5gift.jpeg"
