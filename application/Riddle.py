@@ -16,7 +16,7 @@ class Riddle(object):
         correct_responses,
         incorrect_responses,
         completion_message,
-        completion_image_name
+        completion_image_name,
     ):
         self.riddle = riddle
         self.image_name = image_name
