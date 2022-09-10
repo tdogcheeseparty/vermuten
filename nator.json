@@ -13,26 +13,26 @@
       "image_name": "Animals.jpeg"
     },
     {
-      "question": "Math can supply constant challenges.<br><br>Name the constant found at Entry 2 to get closer to your escape!",
-      "answer": ["18"],
+      "question": "The order of Math can be challenging.<br><br>The well worn name of math orders can be found in Entry 3 to get closer to your escape!",
+      "answer": ["PEMDAS"],
       "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
     },
     {
       "question": "The key to this hiding place gives birth to big things.",
-      "answer": ["empty"],
-      "hint": "Don't be cracked up when you find it",
+      "answer": ["two points"],
+      "hint": "Don't crack up when you find it",
       "image_name": "Robo.png"
     },
      {
       "question": "This symbol is IRONic.<br><br>Coin the clue found below.",
-      "answer": ["star wars", "starwars"],
+      "answer": ["star wars"],
       "hint": "I'm heavy dude!",
       "image_name": "halfface.jpeg"
     },
       {
-      "question": "As leader 44, he was born August 4.<br><br>12 months later the Taubinator was too.<br><br>This year leads to a winning combination.",
-      "answer": ["north"],
+      "question": "As leader 44, he was born August 4.<br><br>12 months later the Taubinator was too.<br><br> Taubinator's year leads to a winning combination.",
+      "answer": ["west"],
       "hint": "You'll make history with this answer!",
       "image_name": "Termup.jpeg"
     },
