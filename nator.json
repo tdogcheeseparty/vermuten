@@ -2,7 +2,7 @@
   "riddles": [
       {
     "question": "Enter the game code to begin",
-    "answer": ["rms"],
+    "answer": ["bhms"],
     "hint": "...",
     "image_name": "start.jpeg"
     },
