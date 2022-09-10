@@ -1,5 +1,11 @@
 {
   "riddles": [
+      {
+    "question": "Enter the game code to begin",
+    "answer": ["rms"],
+    "hint": "...",
+    "image_name": "start.jpeg"
+    },
     {
     "question": "Find the area in block units for wall A. Round to the nearest whole block.",
     "answer": ["336"],
