@@ -4,7 +4,7 @@
     "question": "Enter the game code to begin",
     "answer": ["bhms"],
     "hint": "...",
-    "image_name": "em-start1.png"
+    "image_name": "em_start1.png"
     },
     {
     "question": "Find the area in block units for wall A. Round to the nearest whole block.",
