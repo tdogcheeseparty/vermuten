@@ -31,20 +31,20 @@
       "image_name": "em_key.jpeg"
     },
      {
-      "question": "This symbol is IRONic.  Coin the clue found below.",
-      "answer": ["star wars"],
-      "hint": "I'm heavy dude!",
-      "image_name": "halfface.jpeg"
+      "question": "This is your next clue---->",
+      "answer": ["Coach D"],
+      "hint": "",
+      "image_name": "em_coach.jpeg"
     },
       {
-      "question": "As leader 44, he was born August 4. 12 months later the Taubinator was too.  Taubinator's year is a winning combination.",
+      "question": "As leader 44, he was born August 4. This year is a winning combination.",
       "answer": ["west"],
       "hint": "Fourty Four made history",
-      "image_name": "Termup.jpeg"
+      "image_name": "em_history.jpeg"
     },
     {
       "question": "Entering the room number will complete your escape!",
-      "answer": ["1602"],
+      "answer": ["1604"],
       "hint": "You don't need any more hints at this point",
       "image_name": "Room.jpeg"
     }
@@ -60,6 +60,6 @@
     "Correct!",
     "Nicely done!"
   ],
-  "completion_message": "Congratulations...You have Escaped<br><br>The Taubinator...",
-   "completion_image_name": "final.jpeg"
+  "completion_message": "Congratulations...You have Escaped  The Math Room...",
+   "completion_image_name": "em_winner.png"
 }
