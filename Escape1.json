@@ -1,60 +1,57 @@
 {
   "riddles": [
-    {
-    "question": "Welcome to the Math Escape Room.  Enter the game code to begin",
+      {
+    "question": "Enter the game code to begin",
     "answer": ["bhms"],
     "hint": "...",
-    "image_name": "me_start1.png"
+    "image_name": "start.jpeg"
     },
     {
-    "question": "The perimeter of the classroom using the number of whole squares written in scientific notation.)",
-    "answer": ["1.08"],
-    "hint": "type the coefficient only",
-    "image_name": "em_calculator.gif"
+    "question": "Find the area in block units for wall A. Round to the nearest whole block.",
+    "answer": ["336"],
+    "hint": "Counting half blocks is ok",
+    "image_name": "termtaube.jpeg"
     },
     {
-      "question": "2 down 9 across.  This book contains your next sneaky step.",
-      "answer": ["paw"],
-      "hint": "shelf",
-      "image_name": "halfface.jpeg"
+      "question": "Four the types of animals on the walls and shelves.  The 1st letter for each animal rearranged names a small decorative object.",
+      "answer": ["bead"],
+      "hint": "Dinos count as just one",
+      "image_name": "Animals.jpeg"
     },
     {
-      "question": "Using the clue from the last…you will perk up when you find me.",
-      "answer": ["coffee"],
-      "hint": "behind it",
+      "question": "The order of Math can be challenging.  The well worn name of math orders can be found in Entry 3 to get closer to your escape!",
+      "answer": ["pemdas","PEMDAS"],
+      "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
     },
     {
-      "question": "Between Mandela and Da Vinci the last is the most.",
-      "answer": ["infinity"],
-      "hint": "eight fell down",
+      "question": "The key to this hiding place gives birth to big things.",
+      "answer": ["two points"],
+      "hint": "Don't crack up when you find it",
       "image_name": "Robo.png"
     },
      {
-      "question": "From ASPIRE to OPTIMISM, count them up to find the combination to advance your escape.",
-      "answer": ["mancala"],
-      "hint": "these words really count",
-      "image_name": "5gift.jpeg"
+      "question": "This symbol is IRONic.  Coin the clue found below.",
+      "answer": ["star wars"],
+      "hint": "I'm heavy dude!",
+      "image_name": "halfface.jpeg"
     },
       {
-      "question": "Dino, Roosto, and Kango are in awe of the red glow.",
-      "answer": ["radical"],
-      "hint": "Are they flowers or leaves?",
-      "image_name": "6corn.jpeg"
+      "question": "As leader 44, he was born August 4. 12 months later the Taubinator was too.  Taubinator's year is a winning combination.",
+      "answer": ["west"],
+      "hint": "Fourty Four made history",
+      "image_name": "Termup.jpeg"
     },
     {
-      "question": "Aidan + Anna - Emmi - Brett =",
-      "answer": ["one"],
-      "hint": "spellout the solution for your escape",
-      "image_name": "7owl.jpeg"
+      "question": "Entering the room number will complete your escape!",
+      "answer": ["1602"],
+      "hint": "You don't need any more hints at this point",
+      "image_name": "Room.jpeg"
     }
   ],
   "incorrect_responses": [
     "That's not it.",
     "Guess again.",
-    "Near Miss!",
-    "That's all you've got?",
-    "Dang! Nope!",
     "Try again.",
     "Dig deeper.",
     "You'll be back!"
@@ -64,5 +61,5 @@
     "Nicely done!"
   ],
   "completion_message": "Congratulations...You have Escaped<br><br>The Taubinator...",
-   "completion_image_name": "1problems.png"
+   "completion_image_name": "final.jpeg"
 }
