@@ -1,0 +1,68 @@
+{
+  "riddles": [
+    {
+    "question": "Welcome to the Math Escape Room.  Enter the game code to begin",
+    "answer": ["bhms"],
+    "hint": "...",
+    "image_name": "me_start1.png"
+    },
+    {
+    "question": "The perimeter of the classroom using the number of whole squares written in scientific notation.)",
+    "answer": ["1.08"],
+    "hint": "type the coefficient only",
+    "image_name": "1problems.png"
+    },
+    {
+      "question": "2 down 9 across.  This book contains your next sneaky step.",
+      "answer": ["paw"],
+      "hint": "shelf",
+      "image_name": "halfface.jpeg"
+    },
+    {
+      "question": "Using the clue from the last…you will perk up when you find me.",
+      "answer": ["coffee"],
+      "hint": "behind it",
+      "image_name": "thumbs.jpeg"
+    },
+    {
+      "question": "Between Mandela and Da Vinci the last is the most.",
+      "answer": ["infinity"],
+      "hint": "eight fell down",
+      "image_name": "Robo.png"
+    },
+     {
+      "question": "From ASPIRE to OPTIMISM, count them up to find the combination to advance your escape.",
+      "answer": ["mancala"],
+      "hint": "these words really count",
+      "image_name": "5gift.jpeg"
+    },
+      {
+      "question": "Dino, Roosto, and Kango are in awe of the red glow.",
+      "answer": ["radical"],
+      "hint": "Are they flowers or leaves?",
+      "image_name": "6corn.jpeg"
+    },
+    {
+      "question": "Aidan + Anna - Emmi - Brett =",
+      "answer": ["one"],
+      "hint": "spellout the solution for your escape",
+      "image_name": "7owl.jpeg"
+    }
+  ],
+  "incorrect_responses": [
+    "That's not it.",
+    "Guess again.",
+    "Near Miss!",
+    "That's all you've got?",
+    "Dang! Nope!",
+    "Try again.",
+    "Dig deeper.",
+    "You'll be back!"
+  ],
+  "correct_responses": [
+    "Correct!",
+    "Nicely done!"
+  ],
+  "completion_message": "Congratulations...You have Escaped<br><br>The Taubinator...",
+   "completion_image_name": "1problems.png"
+}
