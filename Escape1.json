@@ -4,19 +4,19 @@
     "question": "Enter the game code to begin",
     "answer": ["bhms"],
     "hint": "...",
-    "image_name": "start.jpeg"
+    "image_name": "em-start.png"
     },
     {
     "question": "Find the area in block units for wall A. Round to the nearest whole block.",
     "answer": ["336"],
     "hint": "Counting half blocks is ok",
-    "image_name": "termtaube.jpeg"
+    "image_name": "em_calculator.gif"
     },
     {
       "question": "Four the types of animals on the walls and shelves.  The 1st letter for each animal rearranged names a small decorative object.",
       "answer": ["bead"],
-      "hint": "Dinos count as just one",
-      "image_name": "Animals.jpeg"
+      "hint": ",
+      "image_name": "em_binos.gif"
     },
     {
       "question": "The order of Math can be challenging.  The well worn name of math orders can be found in Entry 3 to get closer to your escape!",
