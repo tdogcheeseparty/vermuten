@@ -19,25 +19,25 @@
       "image_name": "Animals.jpeg"
     },
     {
-      "question": "Entry 1 introduced you to the name of our unit.<br><br>Type the last word.",
+      "question": "Entry 1 introduced you to the name of our unit.  Type the last word.",
       "answer": ["line"],
       "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
     },
     {
-      "question": "When the RedWar has a new arrangement,<br><br> the top one will lead you to the next clue.",
+      "question": "When the RedWar has a new arrangement, the top one will lead you to the next clue.",
       "answer": ["dare"],
       "hint": "rearrange",
       "image_name": "Robo.png"
     },
      {
-      "question": "The start and the end of the second of all worst conflicts...<br><br>is the combination for future moves.",
+      "question": "The start and the end of the second of all worst conflicts...is the combination for future moves.",
       "answer": ["crater"],
       "hint": "goggle it",
       "image_name": "halfface.jpeg"
     },
       {
-      "question": "Rooster starts it.<br><br>ve a la derecha.<br><br>aller à droite<br><br>Use the first letter of all 14",
+      "question": "Rooster starts it. ---- ve a la derecha. ---- aller à droite. --- Use the first letter of all 14",
       "answer": ["caeemrcadcotvd"],
       "hint": "It is nonsense in order",
       "image_name": "Termup.jpeg"
@@ -63,6 +63,6 @@
     "Correct!",
     "Nicely done!"
   ],
-  "completion_message": "Congratulations...You have Escaped<br><br>The Taubinator...",
+  "completion_message": "Congratulations...You have Escaped The Taubinator...",
    "completion_image_name": "final.jpeg"
 }
