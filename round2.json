@@ -1,6 +1,12 @@
 {
   "riddles": [
     {
+    "question": "Enter the game code to begin",
+    "answer": ["dct"],
+    "hint": "...",
+    "image_name": "start.jpeg"
+    },
+    {
     "question": "Measure in tiles...find the slope from Point A to Point B",
     "answer": ["one"],
     "hint": "Spell it out and you will be floored",
