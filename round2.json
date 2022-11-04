@@ -19,7 +19,7 @@
       "image_name": "Animals.jpeg"
     },
     {
-      "question": "Entry 1 introduced you to the name of our unit.  Type the last word.",
+      "question": "Entry 1 introduced you to the name of unit A.  Type the last word.",
       "answer": ["line"],
       "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
@@ -33,7 +33,7 @@
      {
       "question": "The start and the end of the second of all worst conflicts...is the combination for future moves.",
       "answer": ["crater"],
-      "hint": "goggle it",
+      "hint": "googgle it",
       "image_name": "halfface.jpeg"
     },
       {
