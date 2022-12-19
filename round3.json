@@ -7,7 +7,7 @@
     "image_name": "start.jpeg"
     },
     {
-    "question": "The following function represents<br><br>the number “legs” used by students in the room.<br><br>f(x) = 4(x)",
+    "question": "The following function represents the number “legs” used by students in the room.  f(x) = 4(x)",
     "answer": ["184"],
     "hint": "to sit and write",
     "image_name": "1problems.png"
