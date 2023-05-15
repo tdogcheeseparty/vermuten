@@ -2,14 +2,14 @@
   "riddles": [
     {
     "question": "Enter the game code to begin",
-    "answer": ["rms"],
+    "answer": ["dct"],
     "hint": "...",
     "image_name": "start.jpeg"
     },
     {
     "question": "The perimeter of the classroom using the number of whole squares written in scientific notation.)",
-    "answer": ["1.08"],
-    "hint": "type the coefficient only",
+    "answer": ["8.2"],
+    "hint": "the coefficient only",
     "image_name": "1problems.png"
     },
     {
