@@ -15,37 +15,37 @@
     {
       "question": "2 down 9 across.  This book contains your next sneaky step.",
       "answer": ["paw"],
-      "hint": "shelf",
+      "hint": "book it bruh",
       "image_name": "halfface.jpeg"
     },
     {
-      "question": "Using the clue from the last…you will perk up when you find me.",
-      "answer": ["coffee"],
-      "hint": "behind it",
+      "question": "Determination, Cooperate, Courage all have this in common",
+      "answer": ["ocean"],
+      "hint": "It more about where than what",
       "image_name": "thumbs.jpeg"
     },
     {
-      "question": "Between Mandela and Da Vinci the last is the most.",
-      "answer": ["infinity"],
-      "hint": "eight fell down",
+      "question": "Above the revolutionary and the artist is the key change",
+      "answer": ["bell"],
+      "hint": "When unlocked, the truth will ring true",
       "image_name": "Robo.png"
     },
      {
-      "question": "From ASPIRE to OPTIMISM, count them up to find the combination to advance your escape.",
-      "answer": ["mancala"],
-      "hint": "these words really count",
+      "question": "Beneath the squishy owl",
+      "answer": ["candy"],
+      "hint": "It's a puzzle",
       "image_name": "5gift.jpeg"
     },
       {
       "question": "Dino, Roosto, and Kango are in awe of the red glow.",
       "answer": ["radical"],
-      "hint": "Are they flowers or leaves?",
+      "hint": "Notebooks anyone?",
       "image_name": "6corn.jpeg"
     },
     {
-      "question": "Aidan + Anna - Emmi - Brett =",
-      "answer": ["one"],
-      "hint": "spellout the solution for your escape",
+      "question": "The person in seat eleven who holds a flag",
+      "answer": ["leeton"],
+      "hint": "Incorrectly spelled",
       "image_name": "7owl.jpeg"
     }
   ],
