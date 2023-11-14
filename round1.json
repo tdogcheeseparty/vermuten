@@ -7,20 +7,20 @@
     "image_name": "start.jpeg"
     },
     {
-    "question": "Find the area in block units for wall A. Round to the nearest whole block.",
-    "answer": ["336"],
-    "hint": "Counting half blocks is ok",
+    "question": "Find the square root of area wall A. Use blocks as units",
+    "answer": ["18.3"],
+    "hint": "Use blocks as units",
     "image_name": "termtaube.jpeg"
     },
     {
       "question": "Four the types of animals on the walls and shelves.  The 1st letter for each animal rearranged names a small decorative object.",
       "answer": ["bead"],
-      "hint": "Dinos count as just one",
+      "hint": "Prehistorics count as just one",
       "image_name": "Animals.jpeg"
     },
     {
-      "question": "The order of Math can be challenging.  The well worn name of math orders can be found in Entry 3 to get closer to your escape!",
-      "answer": ["pemdas","PEMDAS"],
+      "question": "The order of Math can be challenging.  This well know formula can be found in Entry 5 to get closer to your escape!",
+      "answer": ["speed"],
       "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
     },
@@ -43,7 +43,7 @@
       "image_name": "Termup.jpeg"
     },
     {
-      "question": "Entering the room number will complete your escape!",
+      "question": "Motivation is your final key.  The first letter of all spells nonsense!",
       "answer": ["1602"],
       "hint": "You don't need any more hints at this point",
       "image_name": "Room.jpeg"
