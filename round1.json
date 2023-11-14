@@ -7,7 +7,7 @@
     "image_name": "start.jpeg"
     },
     {
-    "question": "Find the square root of area wall A. Use blocks as units",
+    "question": "Find the square root of area wall A. Round to the nearst tenth.",
     "answer": ["18.3"],
     "hint": "Use blocks as units",
     "image_name": "termtaube.jpeg"
@@ -19,14 +19,14 @@
       "image_name": "Animals.jpeg"
     },
     {
-      "question": "The order of Math can be challenging.  This well know formula can be found in Entry 5 to get closer to your escape!",
+      "question": "The order of math can be challenging.  This well know formula can be found in Entry 5 to get closer to your escape!",
       "answer": ["speed"],
       "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
     },
     {
       "question": "The key to this hiding place gives birth to big things.",
-      "answer": ["two points"],
+      "answer": ["west"],
       "hint": "Don't crack up when you find it",
       "image_name": "Robo.png"
     },
@@ -38,14 +38,14 @@
     },
       {
       "question": "As leader 44, he was born August 4. 12 months later the Taubinator was too.  Taubinator's year is a winning combination.",
-      "answer": ["west"],
+      "answer": ["Titan"],
       "hint": "Fourty Four made history",
       "image_name": "Termup.jpeg"
     },
     {
-      "question": "Motivation is your final key.  The first letter of all spells nonsense!",
-      "answer": ["1602"],
-      "hint": "You don't need any more hints at this point",
+      "question": "Motivation is your final key.  The 21 first letters from the door to the T all spell this nonsense!",
+      "answer": ["caolcbpscdgpscouldtdl"],
+      "hint": "clockwise just list 'em out",
       "image_name": "Room.jpeg"
     }
   ],
