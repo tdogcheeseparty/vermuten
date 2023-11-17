@@ -7,45 +7,45 @@
     "image_name": "em_start1.png"
     },
     {
-    "question": "Find the area in block units for wall A. Round to the nearest whole block.",
-    "answer": ["336"],
-    "hint": "Counting half blocks is ok",
+    "question": "Add the area of each light. Find the square root and simplify it. And round it to the nearest 10th",
+    "answer": ["8.9"],
+    "hint": "Count tiles as units",
     "image_name": "em_calculator.gif"
     },
     {
-      "question": "Four the types of animals on the walls and shelves.  The 1st letter for each animal rearranged names a small decorative object.",
-      "answer": ["bead"],
-      "hint": "",
+      "question": "Don’t get stuck behind the puck. This stick will get you closer to the goal.",
+      "answer": ["winnwell"],
+      "hint": "Name on the handle",
       "image_name": "em_binos.gif"
     },
     {
-      "question": "The order of Math can be challenging.  The well worn name of math orders can be found in Entry 3 to get closer to your escape!",
-      "answer": ["pemdas","PEMDAS"],
-      "hint": "Look in your notebook",
+      "question": "The seats of comfort hides the progress forward.",
+      "answer": ["function"],
+      "hint": "Pull them out, but put them back",
       "image_name": "em_thumbs.png"
     },
     {
-      "question": "The key to this hiding place starts at the begining of the row.",
-      "answer": ["two points"],
-      "hint": "",
+      "question": "The key to this hiding place has a special place near the chameleon’s heart.",
+      "answer": ["sorry"],
+      "hint": "Be careful with the little Question It guy",
       "image_name": "em_key.jpeg"
     },
      {
-      "question": "This is your next clue---->",
-      "answer": ["coach"],
-      "hint": "",
+      "question": "The order of math can be challenging.  This well known formula can be found in Entry 5 to get closer to your escape!",
+      "answer": ["speed"],
+      "hint": "Look in your notebook",
       "image_name": "em_coach.jpeg"
     },
       {
-      "question": "As leader 44, he was born August 4. This year is a winning combination.",
-      "answer": ["west"],
-      "hint": "Fourty Four made history",
+      "question": "Football and basketball combined make a strange mix.  Find your next clue here.",
+      "answer": ["death star"],
+      "hint": "shoot for the stars",
       "image_name": "em_history.jpeg"
     },
     {
-      "question": "Entering the room number will complete your escape!",
-      "answer": ["1604"],
-      "hint": "You don't need any more hints at this point",
+      "question": "Boxes Boxes Boxes. The first letters of the 6 on the bottom are the answer to your victory.",
+      "answer": ["pergta"],
+      "hint": "L to R",
       "image_name": "Room.jpeg"
     }
   ],
