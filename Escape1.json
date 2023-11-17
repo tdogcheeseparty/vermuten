@@ -2,13 +2,13 @@
   "riddles": [
       {
     "question": "Enter the game code to begin",
-    "answer": ["bhms"],
+    "answer": ["ow1614"],
     "hint": "...",
     "image_name": "em_start1.png"
     },
     {
     "question": "Add the area of each light. Find the square root and simplify it. And round it to the nearest 10th",
-    "answer": ["8.9"],
+    "answer": ["4.8"],
     "hint": "Count tiles as units",
     "image_name": "em_calculator.gif"
     },
@@ -31,7 +31,7 @@
       "image_name": "em_key.jpeg"
     },
      {
-      "question": "The order of math can be challenging.  This well known formula can be found in Entry 5 to get closer to your escape!",
+      "question": "The order of math can be challenging.  This well known formula can be found in Entry 5 continued to get closer to your escape!",
       "answer": ["speed"],
       "hint": "Look in your notebook",
       "image_name": "em_coach.jpeg"
