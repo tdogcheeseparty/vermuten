@@ -7,13 +7,13 @@
     "image_name": "start.jpeg"
     },
     {
-    "question": "Measure in tiles...find the slope from Point A to Point B",
+    "question": "Measure in tiles...find the slope from Point D to Point B",
     "answer": ["four fifths"],
     "hint": "Spell it out and you will be floored",
     "image_name": "termtaube.jpeg"
     },
     {
-      "question": "Go behind SOLUTION SET to take this place to the smallest value.",
+      "question": "Go behind SOLUTION SET to take this game to the smallest value.",
       "answer": ["trillionths"],
       "hint": "Hint: It's a Sign",
       "image_name": "Animals.jpeg"
@@ -26,7 +26,7 @@
     },
     {
       "question": "When the RedWar has a new arrangement, the top one will lead you to the next clue.",
-      "answer": ["dare"],
+      "answer": ["compete"],
       "hint": "rearrange",
       "image_name": "Robo.png"
     },
