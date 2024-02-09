@@ -19,8 +19,8 @@
       "image_name": "2grinch.jpeg"
     },
     {
-      "question": "Find the result of this function g(x)=(TotalEntries-3)/2.  Just another opposite",
-      "answer": ["ordered pairs"],
+      "question": "Find the result of this function g(x)=(TotalEntries-3)/2.  Just another opposite of",
+      "answer": ["squared"],
       "hint": "This is not a nerd",
       "image_name": "3present.png"
     },
