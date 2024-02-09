@@ -8,8 +8,8 @@
     },
     {
     "question": "The following function represents the number “legs” used by students in the room.  f(x) = 4(x)",
-    "answer": ["184"],
-    "hint": "to sit and write",
+    "answer": ["200"],
+    "hint": "to sit AND write",
     "image_name": "1problems.png"
     },
     {
@@ -19,9 +19,9 @@
       "image_name": "2grinch.jpeg"
     },
     {
-      "question": "Look to half of all our entries.  We use these to find something important",
+      "question": "Find the result of this function g(x)=(TotalEntries-3)/2.  Just another opposite",
       "answer": ["ordered pairs"],
-      "hint": "organized fruits",
+      "hint": "This is not a nerd",
       "image_name": "3present.png"
     },
     {
@@ -43,8 +43,8 @@
       "image_name": "6corn.jpeg"
     },
     {
-      "question": "To the right of #12 in 6th",
-      "answer": ["maeve"],
+      "question": "To the left of #12 in 6th",
+      "answer": ["anna"],
       "hint": "chart the location",
       "image_name": "7owl.jpeg"
     }
