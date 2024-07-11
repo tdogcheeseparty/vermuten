@@ -66,10 +66,12 @@ def api_data():
         image_name = current_riddle.get_image_name()
         riddle_id = riddle_manager.get_current_riddle_number()
         hint = current_riddle.get_hint()
-        return jsonify(riddle_id=f'Riddle #{riddle_id}',
-                       riddle=riddle,
-                       image_name=f'./static/{image_name}',
-                       hint=f'Hint: {hint}')
+        return jsonify(
+            riddle_id=f"Riddle #{riddle_id}",
+            riddle=riddle,
+            image_name=f"./static/{image_name}",
+            hint=f"Hint: {hint}",
+        )
 
 
 @app.route("/restart")
@@ -100,4 +102,3 @@ def progress():
 if __name__ == "__main__":
     logging.info("Starting vermuten...")
     app.run()
-
