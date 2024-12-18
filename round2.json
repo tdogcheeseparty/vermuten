@@ -13,14 +13,14 @@
     "image_name": "termtaube.jpeg"
     },
     {
-      "question": "Go behind SOLUTION SET to take this game to the smallest value.",
-      "answer": ["trillionths"],
-      "hint": "Hint: It's a Sign",
+      "question": "Go behind SOLUTION SET.  That which is in the distance can be chilling.",
+      "answer": ["glacier"],
+      "hint": "Hint: Tons of snow",
       "image_name": "Animals.jpeg"
     },
     {
-      "question": "Entry 20 showed you how to make solutions this way.  Type the last word.",
-      "answer": ["elimination"],
+      "question": "Entry 20 showed you how to make solutions this way.  Type the suffix of the last word.",
+      "answer": ["tion"],
       "hint": "Look in your notebook",
       "image_name": "thumbs.jpeg"
     },
