@@ -2,7 +2,7 @@
   "riddles": [
     {
     "question": "Enter the game code to begin",
-    "answer": ["dct"],
+    "answer": ["dct05"],
     "hint": "...",
     "image_name": "start.jpeg"
     },
