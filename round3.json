@@ -7,8 +7,8 @@
     "image_name": "start.jpeg"
     },
     {
-    "question": "The following function represents the number “legs” used by students in the room.  f(x) = 4(x)",
-    "answer": ["200"],
+    "question": "The following function represents the number “legs” used by students in the room.  f(x) = 2^2(x)",
+    "answer": ["204"],
     "hint": "to sit AND write",
     "image_name": "1problems.png"
     },
@@ -43,8 +43,8 @@
       "image_name": "6corn.jpeg"
     },
     {
-      "question": "To the right of 12 in 6th",
-      "answer": ["anna"],
+      "question": "If Taubistan was a country, this would be in the background",
+      "answer": ["3693600"],
       "hint": "chart the location",
       "image_name": "7owl.jpeg"
     }
