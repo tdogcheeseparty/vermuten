@@ -7,7 +7,7 @@
     "image_name": "start.jpeg"
     },
     {
-    "question": "In function f(x) = 2^2(x) represents the number legs x used by students in the room.",
+    "question": "In function f(x) = (2^2)(x) represents the number legs x used by students in the room.",
     "answer": ["208"],
     "hint": "to both sit AND write",
     "image_name": "1problems.png"
@@ -19,7 +19,7 @@
       "image_name": "2grinch.jpeg"
     },
     {
-      "question": "Refer to the result of this function g(x)=(TotalEntries-4)/2.",
+      "question": "Refer to the result of this function E(x)=(TotalEntries-4)/2.",
       "answer": ["chip"],
       "hint": "who had 2?",
       "image_name": "3present.png"
