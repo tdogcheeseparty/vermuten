@@ -2,7 +2,7 @@
   "riddles": [
     {
     "question": "Enter the game code to begin",
-    "answer": ["dct"],
+    "answer": ["dct!"],
     "hint": "...",
     "image_name": "start.jpeg"
     },
@@ -39,7 +39,7 @@
       {
       "question": "Between the 3rd and 5th in the series.",
       "answer": ["energizer"],
-      "hint": "read icebound and north",
+      "hint": "between the reading of icebound and north",
       "image_name": "6corn.jpeg"
     },
     {
@@ -54,7 +54,7 @@
     "Guess again.",
     "67 Near Miss!",
     "That's all you've got?",
-    "Dang! Nope!",
+    "Dang! Nope! 67!",
     "Try again.",
     "Dig deeper.",
     "You'll be back!"
