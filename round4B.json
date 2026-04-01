@@ -1,0 +1,68 @@
+{
+  "riddles": [
+    {
+    "question": "Enter the game code to begin",
+    "answer": ["ella"],
+    "hint": "...",
+    "image_name": "start.jpeg"
+    },
+    {
+    "question": "The perimeter of the DIAGONAL HALF of classroom round to the nearest whole tiles.",
+    "answer": ["93"],
+    "hint": "count only whole tiles",
+    "image_name": "1problems.png"
+    },
+    {
+      "question": "Under the pied avant gauche of the pachyderm",
+      "answer": ["toe"],
+      "hint": "Barbar is hiding it",
+      "image_name": "halfface.jpeg"
+    },
+    {
+      "question": "Destination, Overcome, and Soar all have this in common",
+      "answer": ["mountain"],
+      "hint": "It more about where than what",
+      "image_name": "thumbs.jpeg"
+    },
+    {
+      "question": "Below the women who are caring risk-takers.  Last name is a also a plant.",
+      "answer": ["Learning can"],
+      "hint": "…never be erased",
+      "image_name": "Robo.png"
+    },
+     {
+      "question": "Behind DECF",
+      "answer": ["rectangle"],
+      "hint": "in that order",
+      "image_name": "5gift.jpeg"
+    },
+      {
+      "question": "In Entry 46 learned in Astronaut School",
+      "answer": ["wilson"],
+      "hint": "Notebooks anyone?",
+      "image_name": "6corn.jpeg"
+    },
+    {
+      "question": "The interweb 8+ homepage will lead to your final escape.",
+      "answer": ["Eellogofusciouhipoppokunurious"],
+      "hint": "Location of lesson videos.",
+      "image_name": "7owl.jpeg"
+    }
+  ],
+  "incorrect_responses": [
+    "That's not it.",
+    "Guess again.",
+    "Near Miss!",
+    "That's all you've got?",
+    "Dang! Nope!",
+    "Try again.",
+    "Dig deeper.",
+    "You'll be back!"
+  ],
+  "correct_responses": [
+    "Correct!",
+    "Nicely done!"
+  ],
+  "completion_message": "Congratulations...You have Escaped<br><br>The Taubinator...",
+   "completion_image_name": "1problems.png"
+}
