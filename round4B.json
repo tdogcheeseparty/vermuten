@@ -25,8 +25,8 @@
       "image_name": "thumbs.jpeg"
     },
     {
-      "question": "Below the women who are caring risk-takers.  Last name is a also a plant.",
-      "answer": ["Learning can"],
+      "question": "Below the women who are caring risk-takers.",
+      "answer": ["learning can"],
       "hint": "…never be erased",
       "image_name": "Robo.png"
     },
@@ -44,7 +44,7 @@
     },
     {
       "question": "The interweb 8+ homepage will lead to your final escape.",
-      "answer": ["Eellogofusciouhipoppokunurious"],
+      "answer": ["eellogofusciouhipoppokunurious"],
       "hint": "Location of lesson videos.",
       "image_name": "7owl.jpeg"
     }
